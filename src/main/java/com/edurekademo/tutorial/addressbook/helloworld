@@ -1,3 +1,5 @@
+package com.edurekademo.tutorial.addressbook;
+
 public class HelloWorld {
 
     public static void main(String[] args) {
