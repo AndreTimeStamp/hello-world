@@ -487,6 +487,19 @@
                         <artifactId>maven-jxr-plugin</artifactId>
                         <version>2.1</version>
                     </plugin>
+		    <plugin>
+			<!-- Build an executable JAR -->
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-jar-plugin</artifactId>
+			<version>2.4</version>
+			<configuration>
+				<archive>
+					<manifest>
+						<mainClass>com.com.edurekademo.tutorial.addressbook</mainClass>
+					</manifest>
+				</archive>
+			</configuration>
+		    </plugin>
                 </plugins>
             </reporting>
         </profile>
