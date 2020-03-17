@@ -495,7 +495,7 @@
 			<configuration>
 				<archive>
 					<manifest>
-						<mainClass>com.edurekademo.tutorial</mainClass>
+						<mainClass>com.edurekademo.tutorial.addressbook.AddressbookUI</mainClass>
 					</manifest>
 				</archive>
 			</configuration>
